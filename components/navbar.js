@@ -30,7 +30,7 @@ const Navbar = (props) => {
             <a className="inline-block p-2 text-green-200 mr-2">Login</a>
           </Link>
           <Link href="#">
-            <a className="inline-block py-2 px-4 text-green-700 bg-yellow-500 rounded hover:bg-yellow-400 hover:text-green-800 transition ease-in duration-150">
+            <a className="inline-block py-2 px-4 text-green-900 bg-yellow-500 rounded hover:bg-yellow-400 transition ease-in duration-150">
               Sign up
             </a>
           </Link>
