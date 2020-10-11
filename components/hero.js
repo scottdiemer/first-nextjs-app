@@ -2,23 +2,23 @@ const Hero = () => {
   return (
     <>
       {/* hero */}
-      <div className="md:flex justify-between py-20 px-10 bg-green-100 text-green-900">
+      <div className="justify-between px-10 py-20 text-green-900 bg-green-100 md:flex">
         {/* left */}
-        <div className="md:w-1/2 mb-10 md:mb-0">
-          <h2 className="text-2xl md:text-4xl lg:text-6xl text-black mb-6">
+        <div className="mb-10 md:w-1/2 md:mb-0">
+          <h2 className="mb-6 text-2xl text-black md:text-4xl lg:text-6xl">
             Welcome to Farm City
           </h2>
           <p className="mb-6">Keep them at their peek performance!</p>
 
           <a
             href="#"
-            className="inline-block py-3 px-6 text-lg bg-gray-300 text-gray-800 rounded-lg mr-2"
+            className="inline-block px-6 py-3 mr-2 text-lg text-gray-800 bg-gray-300 rounded-lg shadow-md"
           >
             Learn More
           </a>
           <a
             href="#"
-            className="inline-block py-3 px-6 text-lg bg-orange-500 rounded-lg text-gray-100 hover:bg-orange-400 hover:text-pink-700"
+            className="inline-block px-6 py-3 text-lg text-gray-100 bg-orange-500 rounded-lg shadow-md hover:bg-orange-400 hover:text-pink-700"
           >
             Get Started
           </a>
