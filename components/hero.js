@@ -5,9 +5,9 @@ const Hero = () => {
       <div className="justify-between px-10 py-20 text-green-900 bg-green-100 md:flex">
         {/* left */}
         <div className="mb-10 md:w-1/2 md:mb-0">
-          <h2 className="mb-6 text-2xl text-black md:text-4xl lg:text-6xl">
+          <h1 className="mb-6 text-2xl text-black md:text-4xl lg:text-6xl">
             Welcome to Farm City
-          </h2>
+          </h1>
           <p className="mb-6">Keep them at their peek performance!</p>
 
           <a

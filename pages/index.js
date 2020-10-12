@@ -7,7 +7,7 @@ import Card from "../components/card";
 export default function Home() {
   return (
     <>
-      <Layout>
+      <Layout title="Farm City Inc." favIcon="../public/favicon.ico">
         <Hero />
         <Specials />
         <ImageStrip />

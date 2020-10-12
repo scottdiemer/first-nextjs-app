@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SaleCard, { CardLayout } from "./card";
+import Title from "./title";
 
 const Specials = () => {
   const [products, setProducts] = useState([]);
@@ -23,16 +24,22 @@ const Specials = () => {
   }, []);
 
   return (
-    <section className="p-20 bg-green-800 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-      {loading ? (
-        <p className="font-bold text-green-200">Loading...</p>
-      ) : (
-        products.map((product, index) => (
-          <CardLayout>
-            <SaleCard key={index} {...product} />
-          </CardLayout>
-        ))
-      )}
+    <section className="p-5 pt-5 bg-green-800 sm:p-10 md:pt-10 md:p-20">
+      <Title
+        title="Specials"
+        className="pb-10 text-lg font-bold text-center text-green-200 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
+      />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {loading ? (
+          <p className="font-bold text-green-200">Loading...</p>
+        ) : (
+          products.map((product, index) => (
+            <CardLayout key={index}>
+              <SaleCard {...product} />
+            </CardLayout>
+          ))
+        )}
+      </div>
     </section>
   );
 };
