@@ -27,7 +27,7 @@ const Specials = () => {
     <section className="p-5 pt-5 bg-green-800 sm:p-10 md:pt-10 md:p-20">
       <Title
         title="Specials"
-        className="pb-10 text-lg font-bold text-center text-green-200 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
+        className="pb-10 text-xl font-bold tracking-widest text-center text-green-200 sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl"
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {loading ? (

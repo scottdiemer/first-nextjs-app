@@ -5,7 +5,7 @@ const Title = ({ title, subtitle, className }) => {
     <div className={className}>
       <h2>
         <span className="title">{title}</span>
-        <span className="subtitle">{subtitle}</span>
+        {subtitle !== "" ? <span className="subtitle">{subtitle}</span> : ""}
       </h2>
     </div>
   );
