@@ -24,14 +24,14 @@ const Specials = () => {
   }, []);
 
   return (
-    <section className="p-5 pt-5 bg-green-800 sm:p-10 md:pt-10 md:p-20">
+    <section className="p-5 pt-5 bg-green-100 sm:p-10 md:pt-10 md:p-20">
       <Title
         title="Specials"
-        className="pb-10 text-xl font-bold tracking-widest text-center text-green-200 sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl"
+        className="pb-10 text-xl font-bold tracking-widest text-center text-green-800 sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl"
       />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {loading ? (
-          <p className="font-bold text-green-200">Loading...</p>
+          <p className="font-bold text-green-800">Loading...</p>
         ) : (
           products.map((product, index) => (
             <CardLayout key={index}>
