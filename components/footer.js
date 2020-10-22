@@ -2,16 +2,17 @@ const Footer = () => {
   return (
     <>
       {/* footer + newsletter */}
-      <footer className="p-10 bg-green-900 text-green-400 flex justify-between">
+      <footer className="flex justify-between p-10 text-green-400 bg-green-900">
         {/* left */}
         <div className="md:w-1/2">
-          <h3 className="text-lg mb-2">Join the Newsletter!</h3>
+          <h3 className="mb-2 text-lg">Join the Newsletter!</h3>
           <form className="flex">
             <input
               type="email"
-              className="w-full rounded-l py-3 px-4 outline-none text-green-900 focus:bg-green-100"
+              className="w-full px-4 py-3 text-green-900 rounded-l outline-none focus:bg-green-100"
+              aria-label="email address"
             />
-            <button className="bg-orange-500 hover:bg-orange-700 text-orange-900 hover:text-orange-400 rounded-r px-4">
+            <button className="px-4 text-black bg-orange-500 rounded-r hover:bg-orange-700 hover:text-white">
               Join
             </button>
           </form>

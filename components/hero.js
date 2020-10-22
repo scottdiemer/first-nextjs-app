@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <>
       {/* hero */}
-      <div className="justify-between h-screen px-10 py-20 text-green-900 bg-green-100 md:flex">
+      <div className="justify-between px-10 py-20 text-green-900 bg-green-100 lg:h-screen md:flex">
         {/* left */}
         <div className="flex flex-col justify-center mb-10 md:w-1/2 md:mb-0">
           <h1 className="mb-6 text-2xl text-black md:text-4xl lg:text-6xl">
@@ -19,7 +19,7 @@ const Hero = () => {
             </a>
             <a
               href="#"
-              className="inline-block px-6 py-3 text-lg text-gray-100 bg-orange-500 rounded-lg shadow-md hover:bg-orange-400 hover:text-pink-700"
+              className="inline-block px-6 py-3 text-lg text-gray-800 bg-orange-500 rounded-lg shadow-md hover:bg-orange-400 hover:text-black"
             >
               Get Started
             </a>

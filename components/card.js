@@ -35,11 +35,11 @@ const SaleCard = ({ image, title, description, price }) => {
   return (
     <>
       <ImageCard image={image} title={title} description={description}>
-        <h4 className="mt-4 font-bold text-right text-gray-500 line-through">
-          Price: ${price.toFixed(2)}
+        <h4 className="mt-4 text-sm font-bold text-right text-gray-800">
+          Was: ${price.toFixed(2)}
         </h4>
-        <h4 className="mt-4 font-bold text-right text-green-900">
-          Now: ${(price * 0.8).toFixed(2)}
+        <h4 className="mt-4 font-bold text-right text-red-700">
+          Sale: ${(price * 0.8).toFixed(2)}
         </h4>
       </ImageCard>
     </>

@@ -7,7 +7,7 @@ const About = () => {
         title="About Us"
         className="pb-10 text-xl font-bold tracking-widest text-center text-green-200 sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl"
       />
-      <p className="font-sans tracking-wide text-justify text-green-200">
+      <p className="font-sans tracking-wide text-justify text-white">
         Adipisicing nobis recusandae explicabo neque aperiam Blanditiis corrupti
         officia deserunt libero labore Pariatur dolor cum dicta optio totam!
         Facilis iste tempore vel eos saepe esse. Unde vitae odit explicabo
