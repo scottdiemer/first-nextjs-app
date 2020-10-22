@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <>
       {/* hero */}
-      <div className="justify-between px-10 py-20 text-green-900 bg-green-100 lg:h-screen md:flex">
+      <div className="justify-between h-full px-10 py-20 text-green-900 bg-green-100 lg:h-screen md:flex">
         {/* left */}
         <div className="flex flex-col justify-center mb-10 md:w-1/2 md:mb-0">
           <h1 className="mb-6 text-2xl text-black md:text-4xl lg:text-6xl">
